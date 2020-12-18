@@ -1,0 +1,43 @@
+
+
+.container{
+  margin-top: 100px;
+}
+.left{
+  width: 45%;
+  h1, h2{
+    padding-bottom: 40px;
+  }
+
+  .bottoni{
+    width: 80%;
+    @include myFlexSpace;
+    padding-bottom: 30px;
+  }
+
+  button{
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: $link-color;
+    border: 0;
+
+    a{
+      color: white;
+      @include myFlexSpace;
+      width: 80%;
+      margin-left: 10%;
+    }
+    img{
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+.right{
+  width: 45%;
+
+  img{
+    width: 100%;
+  }
+}

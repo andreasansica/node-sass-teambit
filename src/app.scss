@@ -1,23 +1,33 @@
 @import "Partials/variables";
 @import "Partials/common";
 @import "Partials/header";
+@import "Partials/intro";
+
+
+
 
 // REGOLE GENERALI
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #58402c;
 }
 
 h1{
-  font-size: 70px;
+  font-size: 55px;
 }
 h2{
-  font-size: 30px;
+  font-size: 25px;
 }
 p{
-  font-size: 25px;
+  font-size: 15px;
 }
 a{
   text-decoration: none;
+}
+.container{
+  @include myFlex;
+  width: 90%;
+  margin-left: 5%;
 }
