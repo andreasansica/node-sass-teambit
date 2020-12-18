@@ -25,7 +25,7 @@ header{
   ul{
     @include myFlexSpace;
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   button{
@@ -33,7 +33,7 @@ header{
     border: 1px solid blue;
     border-radius: 10px;
     width: 110px;
-    font-weight: 600;
+    font-weight: 400;
 
     a{
       width: 90%;

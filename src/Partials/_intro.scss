@@ -2,11 +2,17 @@
 
 .container{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .left{
   width: 45%;
-  h1, h2{
+  h1{
     padding-bottom: 40px;
+    font-weight: 700;
+  }
+  h2{
+    padding-bottom: 40px;
+    font-weight: 500;
   }
 
   .bottoni{

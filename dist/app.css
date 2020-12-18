@@ -27,7 +27,7 @@ header ul {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 header button {
@@ -35,7 +35,7 @@ header button {
   border: 1px solid blue;
   border-radius: 10px;
   width: 110px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 header button a {
@@ -54,15 +54,21 @@ header button img {
 
 .container {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .left {
   width: 45%;
 }
 
-.left h1,
+.left h1 {
+  padding-bottom: 40px;
+  font-weight: 700;
+}
+
 .left h2 {
   padding-bottom: 40px;
+  font-weight: 500;
 }
 
 .left .bottoni {
@@ -103,15 +109,76 @@ header button img {
   width: 100%;
 }
 
+.box {
+  background-color: #ffe7d2;
+  width: 100%;
+  height: 2000px;
+}
+
+.box .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 30px;
+  height: 150px;
+  text-align: center;
+}
+
+.box .central {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box .central .first,
+.box .central .second,
+.box .central .third {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.box .central img {
+  height: 140px;
+  width: 140px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.box .central h3 {
+  text-align: center;
+  padding: 5px;
+}
+
+.box .last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.box .last img {
+  height: 400px;
+  width: 300px;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   color: #58402c;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 50px;
 }
 
 h2 {
