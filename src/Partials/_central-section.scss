@@ -1,0 +1,79 @@
+.box1{
+  width: 90%;
+  @include myFlex;
+  margin-top: 40px;
+
+  .img{
+    width: 60%;
+    margin-right: 100px;
+
+    img{
+      height: 600px;
+      width: 800px;
+    }
+  }
+
+  .text{
+    width: 40%;
+
+    h2{
+      margin-bottom: 30px;
+    }
+    p{
+      margin-bottom: 40px;
+      font-size: 20px;
+    }
+    a{
+      position: absolute;
+      padding-bottom: 50px;
+    }
+
+
+    img{
+      margin-top: 50px;
+      height: 180px;
+      width: 200px;
+    }
+  }
+}
+
+// box 2
+.box2{
+  margin-left: 10%;
+  width: 90%;
+  @include myFlex;
+  margin-top: 40px;
+
+  .img{
+    width: 60%;
+    margin-right: 100px;
+
+    img{
+      height: 600px;
+      width: 800px;
+    }
+  }
+
+  .text{
+    width: 40%;
+
+    h2{
+      margin-bottom: 30px;
+    }
+    p{
+      margin-bottom: 40px;
+      font-size: 20px;
+    }
+    a{
+      position: absolute;
+      padding-bottom: 50px;
+    }
+
+
+    img{
+      margin-top: 50px;
+      height: 180px;
+      width: 200px;
+    }
+  }
+}

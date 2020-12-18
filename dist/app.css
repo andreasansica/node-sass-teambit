@@ -169,6 +169,91 @@ header button img {
   width: 300px;
 }
 
+.box1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.box1 .img {
+  width: 60%;
+  margin-right: 100px;
+}
+
+.box1 .img img {
+  height: 600px;
+  width: 800px;
+}
+
+.box1 .text {
+  width: 40%;
+}
+
+.box1 .text h2 {
+  margin-bottom: 30px;
+}
+
+.box1 .text p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.box1 .text a {
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+.box1 .text img {
+  margin-top: 50px;
+  height: 180px;
+  width: 200px;
+}
+
+.box2 {
+  margin-left: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.box2 .img {
+  width: 60%;
+  margin-right: 100px;
+}
+
+.box2 .img img {
+  height: 600px;
+  width: 800px;
+}
+
+.box2 .text {
+  width: 40%;
+}
+
+.box2 .text h2 {
+  margin-bottom: 30px;
+}
+
+.box2 .text p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.box2 .text a {
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+.box2 .text img {
+  margin-top: 50px;
+  height: 180px;
+  width: 200px;
+}
+
 * {
   padding: 0;
   margin: 0;
