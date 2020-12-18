@@ -1,0 +1,16 @@
+
+@mixin myFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin myFlexSpace{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin hover{
+  a:hover{
+    background-color: #ffe7d2
+  }
+}

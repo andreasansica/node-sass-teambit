@@ -1,0 +1,49 @@
+
+
+.container{
+  @include myFlex;
+}
+
+
+header{
+  width: $container-width;
+  height: 100px;
+  @include myFlexSpace;
+  border-bottom: 1px solid grey;
+
+
+  .logo{
+    @include myFlexSpace;
+    width: 140px;
+
+    h2{
+      font-weight: 300;
+    }
+  }
+
+  nav{
+    width: 40%;
+  }
+  ul{
+    @include myFlexSpace;
+    list-style-type: none;
+    font-weight: 600;
+  }
+
+  button{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 600;
+
+    a{
+      @include myFlexSpace;
+    }
+
+    img{
+      height: 20px;
+      width: 20px;
+    }
+  }
+}

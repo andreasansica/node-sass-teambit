@@ -1,0 +1,23 @@
+@import "Partials/variables";
+@import "Partials/common";
+@import "Partials/header";
+
+// REGOLE GENERALI
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+}
