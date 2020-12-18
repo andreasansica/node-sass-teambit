@@ -44,7 +44,7 @@ header button a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: blue;
+  color: #0E14EE;
 }
 
 header button img {
@@ -83,7 +83,7 @@ header button img {
   width: 200px;
   padding: 8px;
   border-radius: 8px;
-  background-color: blue;
+  background-color: #0E14EE;
   border: 0;
 }
 
@@ -110,7 +110,7 @@ header button img {
 }
 
 .box {
-  background-color: #ffe7d2;
+  background-color: #7F14D4;
   width: 100%;
   height: 2000px;
 }
@@ -203,6 +203,7 @@ header button img {
 .box1 .text a {
   position: absolute;
   padding-bottom: 50px;
+  color: #0E14EE;
 }
 
 .box1 .text img {
@@ -246,6 +247,7 @@ header button img {
 .box2 .text a {
   position: absolute;
   padding-bottom: 50px;
+  color: #0E14EE;
 }
 
 .box2 .text img {
@@ -254,11 +256,103 @@ header button img {
   width: 200px;
 }
 
+.box-blog {
+  background-color: #7F14D4;
+  width: 100%;
+  height: 800px;
+}
+
+.box-blog .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-blog .title h3 {
+  font-size: 35px;
+}
+
+.box-blog .testo {
+  background-color: white;
+  width: 45%;
+  height: 450px;
+  padding: 50px;
+  text-align: left;
+  margin-left: 28%;
+  border-radius: 10px;
+}
+
+.box-blog .testo p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.box-blog .testo .autori {
+  display: flex;
+  height: 50px;
+}
+
+.box-blog .testo .autori img {
+  height: 40px;
+  width: 40px;
+}
+
+.box-blog .testo .autori .nomi {
+  margin-left: 20px;
+}
+
+.box-blog .testo .autori .nomi h3 {
+  color: #0E14EE;
+  font-size: 15px;
+}
+
+.box-blog .testo .autori .nomi h4 {
+  font-size: 15px;
+}
+
+.box-blog .bottoni {
+  width: 35%;
+  margin-left: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.box-blog button {
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #0E14EE;
+  border: 0;
+}
+
+.box-blog button a {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.box-blog button img {
+  height: 20px;
+  width: 20px;
+}
+
+.box-blog a {
+  margin-left: 580px;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #58402c;
+  color: #040F0F;
   font-family: "Roboto", sans-serif;
 }
 
